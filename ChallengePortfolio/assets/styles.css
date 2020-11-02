@@ -1,0 +1,153 @@
+* {
+    background-image: url("https://www.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-37.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    justify-content: center;
+}
+
+/* HEADER */
+
+header {
+    border: 8px solid;
+    border-color: black;
+    color: #FF3333;
+    position: sticky;
+    top: 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header h2 a {
+    font: georgia;
+    font-weight: thin;
+    margin: 20px 26%;
+    color: #FF3333;
+    content: left;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    font: georgia;
+    color: #FF3333;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-weight: lighter;
+    word-spacing: 10px;
+}
+
+header nav ul li a:hover {
+    background: #FF3333;
+    color: #EDEDED;
+    border-radius: 15px;
+    text-shadow: #FF3333;
+}
+
+/* BODY */
+
+.body {
+    color: #FF3333;
+}
+
+.body-div h1 {
+    font-size: 46px;
+    text-align: center;
+    color: #FF3333;
+    margin: 50px 40px;
+    
+}
+
+.body-div p {
+    text-align: center;
+    color: #EDEDED;
+    font-size: 25px;
+}
+
+.body-div {
+    background-color: #EDEDED;
+    margin: 150px 20px;
+    content: 30px 30px;  
+}
+
+/* BIO*/
+
+.bio {
+    width: 100%;
+    height: 5px;
+    color: #EDEDED;
+}
+
+.bio h3 {
+    color: #FF3333;
+    font-size: 36px;
+    width: 300px;
+    margin: auto;
+}
+
+.bio img {
+    width: 300px;
+    float: left;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.bio p {
+    width: 200px;
+    float: left;
+    height: 100px;
+    font-size: 21px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* EXAMPLES OF WORK */
+.example {
+    font-size: 40px;
+    color: #FF3333;
+    justify-content: right;
+    text-align: center;
+}
+
+.example img {
+    width: 300px;
+    float: inline-end;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.example img span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,0,0,.5)  
+}
+
+.example img:hover span {
+    opacity: 1;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+       
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+}
